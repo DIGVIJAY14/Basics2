@@ -28,13 +28,13 @@ const DynamicRadioBut = () => {
 };
 
 export default DynamicRadioBut;
-
+0;
 const styles = StyleSheet.create({
   main: {
     flex: 1,
     justifyContent: "center",
-    alignItems: "center",
     backgroundColor: "cyan",
+    paddingBottom: 20,
   },
   textA: {
     fontSize: 30,
@@ -46,7 +46,7 @@ const styles = StyleSheet.create({
     borderColor: "black",
     borderWidth: 3,
     borderRadius: 20,
-    margin: 10,
+    margin: 40,
   },
   subset: {
     flexDirection: "row",

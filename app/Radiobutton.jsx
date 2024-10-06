@@ -1,7 +1,7 @@
 import { StyleSheet, Text, View, TouchableOpacity } from "react-native";
 import React, { useState } from "react";
 const Radiobutton = () => {
-  const [rad, setrad] = useState(99);
+  const [rad, setrad] = useState(98);
   return (
     <View style={styles.main}>
       <TouchableOpacity onPress={() => setrad(98)}>

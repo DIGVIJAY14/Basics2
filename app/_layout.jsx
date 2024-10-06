@@ -2,6 +2,7 @@ import { SafeAreaView, StyleSheet, Text, View } from "react-native";
 import React from "react";
 import Radiobutton from "./Radiobutton";
 import DynamicRadioBut from "./DynamicRadioBut";
+import ActivityLoader from "./ActivityLoader";
 
 const _Layout = () => {
   return (
@@ -21,7 +22,8 @@ const _Layout = () => {
         {/* - */}
         {/* - */}
         {/* <Radiobutton /> */}
-        <DynamicRadioBut />
+        {/* <DynamicRadioBut /> */}
+        {/* <ActivityLoader /> */}
       </View>
     </SafeAreaView>
   );
