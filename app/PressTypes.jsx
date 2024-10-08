@@ -7,6 +7,8 @@ const PressTypes = () => {
       <Pressable
         onPress={() => console.warn("normal press")}
         onLongPress={() => console.warn("long press")}
+        // in milliseconds
+        delayLongPress={2000}
         onPressIn={() => console.warn("press in")}
         onPressOut={() => console.warn("press out")}
       >

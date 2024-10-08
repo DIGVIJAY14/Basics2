@@ -5,6 +5,8 @@ import DynamicRadioBut from "./DynamicRadioBut";
 import ActivityLoader from "./ActivityLoader";
 import Modall from "./Modall";
 import PressTypes from "./PressTypes";
+import StatusBarr from "./StatusBarr";
+import Platformm from "./Platformm";
 
 const _Layout = () => {
   return (
@@ -29,6 +31,8 @@ const _Layout = () => {
         {/* <ActivityLoader /> */}
         {/* <Modall /> */}
         {/* <PressTypes /> */}
+        {/* <StatusBarr /> */}
+        {/* <Platformm /> */}
       </View>
     </SafeAreaView>
   );
